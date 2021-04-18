@@ -1,0 +1,5 @@
+## OOP 개념 공부 2
+- 1.5    Encapsulation
+- 1.6    Composition, inheritance, and delegation
+- 1.7    Polymorphism
+- 1.8    Open recursion
