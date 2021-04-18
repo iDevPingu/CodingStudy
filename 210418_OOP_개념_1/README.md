@@ -1,4 +1,4 @@
-## OOP 개념 공부 1/2
+## OOP 개념 공부 1
 - 1.1	Shared with non-OOP languages
 - 1.2	Objects and classes
 - 1.3	Class-based vs prototype-based
