@@ -3,3 +3,6 @@
 - 1.6    Composition, inheritance, and delegation
 - 1.7    Polymorphism
 - 1.8    Open recursion
+
+
+정형준:https://hyungjunjeong.atlassian.net/l/c/sBMg0nL1
