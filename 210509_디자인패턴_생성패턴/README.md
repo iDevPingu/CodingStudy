@@ -11,3 +11,8 @@
 - 김민기 [Link](https://minki.pythonanywhere.com/blog/18)
 - 정형준
 - 황재익
+  - [추상 팩토리](https://icksw.tistory.com/235)
+  - [빌더](https://icksw.tistory.com/236)
+  - 팩토리 메서드
+  - 프로토 타입
+  - 싱글턴
