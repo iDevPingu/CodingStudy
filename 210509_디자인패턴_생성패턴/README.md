@@ -8,6 +8,6 @@
 - 싱글턴 (Singleton)
 
 > ## 정리 내용
-- 김민기 [Link](https://minki.pythonanywhere.com/admin/blog/blog/18/change/)
+- 김민기 [Link](https://minki.pythonanywhere.com/blog/18)
 - 정형준
 - 황재익
