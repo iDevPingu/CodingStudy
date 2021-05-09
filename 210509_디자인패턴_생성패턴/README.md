@@ -9,7 +9,7 @@
 
 > ## 정리 내용
 - 김민기 [Link](https://minki.pythonanywhere.com/blog/18)
-- 정형준
+- 정형준 [Link](https://hyungjunjeong.atlassian.net/wiki/spaces/OS/pages)
 - 황재익
   - [추상 팩토리](https://icksw.tistory.com/235)
   - [빌더](https://icksw.tistory.com/236)
