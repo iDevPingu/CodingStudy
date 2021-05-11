@@ -15,4 +15,4 @@
   - [빌더](https://icksw.tistory.com/236)
   - [팩토리 메서드](https://icksw.tistory.com/237)
   - [프로토 타입](https://icksw.tistory.com/238)
-  - 싱글턴
+  - [싱글턴](https://icksw.tistory.com/239)
