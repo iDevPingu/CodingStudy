@@ -9,3 +9,7 @@
 - 김민기
 - 정형준
 - 황재익
+  - [어댑터 (Adapter)](https://icksw.tistory.com/241)
+  - [브리지 (Bridge)](https://icksw.tistory.com/242)
+  - 컴퍼지트 (Composite)
+  - 데커레이터 (Decorator)
