@@ -8,7 +8,7 @@
 - 김민기
 - 정형준
 - 황재익
-  - [퍼사드 (Facade)]https://icksw.tistory.com/246)
+  - [퍼사드 (Facade)](https://icksw.tistory.com/246)
   - [플라이웨이트 (Flyweight)](https://icksw.tistory.com/247)
   - [프록시 (Proxy)](https://icksw.tistory.com/248)
 
