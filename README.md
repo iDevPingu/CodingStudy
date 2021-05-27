@@ -6,3 +6,4 @@
 ## [210509 - 디자인 패턴 공부 1 - 생성패턴](https://github.com/jaicoco/CodingStudy/tree/main/210509_디자인패턴_생성패턴)
 ## [210516 - 디자인 패턴 공부 2 - 구조패턴 1](https://github.com/jaicoco/CodingStudy/tree/main/210516_디자인패턴_구조패턴1)
 ## [210523 - 디자인 패턴 공부 3 - 구조패턴 2](https://github.com/jaicoco/CodingStudy/tree/main/210523_디자인패턴_구조패턴2)
+## [210530 - 디자이 패터 공부 4 - 행동패턴 1](https://github.com/jaicoco/CodingStudy/tree/main/210530_디자인패턴_행동패턴1)
