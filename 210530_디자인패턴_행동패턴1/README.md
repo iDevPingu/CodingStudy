@@ -4,7 +4,7 @@
 - Command (커맨드)
 - Interperter (인터프리터)
 - Iterator (이터레이터)
-- Mediator (메디에이터)
+- Mediator (중재자)
 - Memento (메멘토)
 
 > ## 정리 내용
@@ -15,7 +15,7 @@
   - [Command (커맨드)](https://icksw.tistory.com/251)
   - [Interperter (인터프리터)](https://icksw.tistory.com/252)
   - [Iterator (이터레이터)](https://icksw.tistory.com/253)
-  - [Mediator (메디에이터)](https://icksw.tistory.com/254)
+  - [Mediator (중재자)](https://icksw.tistory.com/254)
   - [Memento (메멘토)]
 
 
