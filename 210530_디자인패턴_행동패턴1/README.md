@@ -5,7 +5,6 @@
 - Interperter (인터프리터)
 - Iterator (이터레이터)
 - Mediator (중재자)
-- Memento (메멘토)
 
 > ## 정리 내용
 - 김민기
@@ -16,7 +15,6 @@
   - [Interperter (인터프리터)](https://icksw.tistory.com/252)
   - [Iterator (이터레이터)](https://icksw.tistory.com/253)
   - [Mediator (중재자)](https://icksw.tistory.com/254)
-  - [Memento (메멘토)]
 
 
 # [한국관광공사 공모전](https://www.2021tourapi.com/sub04.php) 아이디어 회의2
