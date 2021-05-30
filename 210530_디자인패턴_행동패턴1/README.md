@@ -11,11 +11,11 @@
 - 김민기
 - 정형준
 - 황재익
-  - [Chain of Responsibility (책임 연쇄)]
-  - [Command (커맨드)]
-  - [Interperter (인터프리터)]
-  - [Iterator (이터레이터)]
-  - [Mediator (메디에이터)]
+  - [Chain of Responsibility (책임 연쇄)](https://icksw.tistory.com/250)
+  - [Command (커맨드)](https://icksw.tistory.com/251)
+  - [Interperter (인터프리터)](https://icksw.tistory.com/252)
+  - [Iterator (이터레이터)](https://icksw.tistory.com/253)
+  - [Mediator (메디에이터)](https://icksw.tistory.com/254)
   - [Memento (메멘토)]
 
 
