@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600BEE0E26821C3300F6CC57 /* CampingInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600BEE0C26821C3300F6CC57 /* CampingInfoCell.swift */; };
+		600BEE0F26821C3300F6CC57 /* CampingInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 600BEE0D26821C3300F6CC57 /* CampingInfoCell.xib */; };
+		600BEE132682273C00F6CC57 /* SNSWritePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600BEE122682273C00F6CC57 /* SNSWritePage.swift */; };
+		600BEE172682281300F6CC57 /* CampingPlannerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600BEE162682281300F6CC57 /* CampingPlannerPage.swift */; };
+		600BEE1A26822B7900F6CC57 /* CampingPlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600BEE1826822B7900F6CC57 /* CampingPlanCell.swift */; };
+		600BEE1B26822B7900F6CC57 /* CampingPlanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 600BEE1926822B7900F6CC57 /* CampingPlanCell.xib */; };
 		60E4BF05267F1C3100F2EC2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E4BF04267F1C3100F2EC2E /* AppDelegate.swift */; };
 		60E4BF07267F1C3100F2EC2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E4BF06267F1C3100F2EC2E /* SceneDelegate.swift */; };
 		60E4BF0C267F1C3100F2EC2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E4BF0A267F1C3100F2EC2E /* Main.storyboard */; };
@@ -23,6 +29,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		600BEE0C26821C3300F6CC57 /* CampingInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampingInfoCell.swift; sourceTree = "<group>"; };
+		600BEE0D26821C3300F6CC57 /* CampingInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CampingInfoCell.xib; sourceTree = "<group>"; };
+		600BEE122682273C00F6CC57 /* SNSWritePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSWritePage.swift; sourceTree = "<group>"; };
+		600BEE162682281300F6CC57 /* CampingPlannerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampingPlannerPage.swift; sourceTree = "<group>"; };
+		600BEE1826822B7900F6CC57 /* CampingPlanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampingPlanCell.swift; sourceTree = "<group>"; };
+		600BEE1926822B7900F6CC57 /* CampingPlanCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CampingPlanCell.xib; sourceTree = "<group>"; };
 		60E4BF01267F1C3100F2EC2E /* Campers_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campers_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E4BF04267F1C3100F2EC2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60E4BF06267F1C3100F2EC2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +63,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		600BEE102682240F00F6CC57 /* SNSPage */ = {
+			isa = PBXGroup;
+			children = (
+				60E4BF1E267F1EE500F2EC2E /* SNSPage.swift */,
+				60E4BF28267F237500F2EC2E /* SNSFeedCell.swift */,
+				60E4BF29267F237500F2EC2E /* SNSFeedCell.xib */,
+			);
+			path = SNSPage;
+			sourceTree = "<group>";
+		};
+		600BEE112682241600F6CC57 /* SNSWritePage */ = {
+			isa = PBXGroup;
+			children = (
+				600BEE122682273C00F6CC57 /* SNSWritePage.swift */,
+			);
+			path = SNSWritePage;
+			sourceTree = "<group>";
+		};
+		600BEE14268227FA00F6CC57 /* CapingPlannerPage */ = {
+			isa = PBXGroup;
+			children = (
+				600BEE162682281300F6CC57 /* CampingPlannerPage.swift */,
+				600BEE1826822B7900F6CC57 /* CampingPlanCell.swift */,
+				600BEE1926822B7900F6CC57 /* CampingPlanCell.xib */,
+			);
+			path = CapingPlannerPage;
+			sourceTree = "<group>";
+		};
+		600BEE152682280300F6CC57 /* CampingInfoPage */ = {
+			isa = PBXGroup;
+			children = (
+				60E4BF20267F1EEF00F2EC2E /* CampingInfoPage.swift */,
+				600BEE0C26821C3300F6CC57 /* CampingInfoCell.swift */,
+				600BEE0D26821C3300F6CC57 /* CampingInfoCell.xib */,
+			);
+			path = CampingInfoPage;
+			sourceTree = "<group>";
+		};
 		60E4BEF8267F1C3100F2EC2E = {
 			isa = PBXGroup;
 			children = (
@@ -97,7 +147,8 @@
 		60E4BF1C267F1EC200F2EC2E /* CampingInfo */ = {
 			isa = PBXGroup;
 			children = (
-				60E4BF20267F1EEF00F2EC2E /* CampingInfoPage.swift */,
+				600BEE152682280300F6CC57 /* CampingInfoPage */,
+				600BEE14268227FA00F6CC57 /* CapingPlannerPage */,
 			);
 			path = CampingInfo;
 			sourceTree = "<group>";
@@ -105,9 +156,8 @@
 		60E4BF1D267F1EC600F2EC2E /* SNS */ = {
 			isa = PBXGroup;
 			children = (
-				60E4BF1E267F1EE500F2EC2E /* SNSPage.swift */,
-				60E4BF28267F237500F2EC2E /* SNSFeedCell.swift */,
-				60E4BF29267F237500F2EC2E /* SNSFeedCell.xib */,
+				600BEE102682240F00F6CC57 /* SNSPage */,
+				600BEE112682241600F6CC57 /* SNSWritePage */,
 			);
 			path = SNS;
 			sourceTree = "<group>";
@@ -174,6 +224,8 @@
 				60E4BF27267F20DF00F2EC2E /* ImageCell.xib in Resources */,
 				60E4BF11267F1C3200F2EC2E /* Assets.xcassets in Resources */,
 				60E4BF0C267F1C3100F2EC2E /* Main.storyboard in Resources */,
+				600BEE1B26822B7900F6CC57 /* CampingPlanCell.xib in Resources */,
+				600BEE0F26821C3300F6CC57 /* CampingInfoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,13 +236,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				600BEE0E26821C3300F6CC57 /* CampingInfoCell.swift in Sources */,
 				60E4BF05267F1C3100F2EC2E /* AppDelegate.swift in Sources */,
 				60E4BF1F267F1EE500F2EC2E /* SNSPage.swift in Sources */,
+				600BEE132682273C00F6CC57 /* SNSWritePage.swift in Sources */,
 				60E4BF23267F1EF600F2EC2E /* MyPage.swift in Sources */,
 				60E4BF07267F1C3100F2EC2E /* SceneDelegate.swift in Sources */,
 				60E4BF2A267F237500F2EC2E /* SNSFeedCell.swift in Sources */,
 				60E4BF21267F1EEF00F2EC2E /* CampingInfoPage.swift in Sources */,
+				600BEE172682281300F6CC57 /* CampingPlannerPage.swift in Sources */,
 				60E4BF26267F20DF00F2EC2E /* ImageCell.swift in Sources */,
+				600BEE1A26822B7900F6CC57 /* CampingPlanCell.swift in Sources */,
 				60E4BF0F267F1C3100F2EC2E /* Campers_Sample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

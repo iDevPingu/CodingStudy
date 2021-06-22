@@ -16,7 +16,15 @@ class ImageCell: UICollectionViewCell {
         super.awakeFromNib()
     }
 
-    func configure() {
-        self.imageView.image = UIImage(named: "Pingu")
+    func configure(item: Int) {
+        if item % 4 == 0 {
+            self.imageView.image = UIImage(named: "Pingu")
+        } else if item % 4 == 1 {
+            self.imageView.image = UIImage(named: "Camping")
+        } else if item % 4 == 2 {
+            self.imageView.image = UIImage(named: "CampingExample1")
+        } else if item % 4 == 3 {
+            self.imageView.image = UIImage(named: "CampingExample2")
+        }
     }
 }
