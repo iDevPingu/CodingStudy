@@ -3,6 +3,6 @@
 > ## [제안서](https://docs.google.com/presentation/d/1LuH_F3QrcExW00ALWQ-NsxlbBs8rPHm8otTb8hKF0RM)
 - 제안서 최종 수정 및 제출 준비 완료하기
 
-> ## iOS 스토리 보드 제출용 프로토타입 작업
+> ## [iOS 스토리 보드 제출용 프로토타입 작업](https://github.com/jaicoco/CodingStudy/tree/main/210620_한국관광공사_공모전준비/Campers_Sample)
 - 황재익
 - 제출 준비 끝내기
