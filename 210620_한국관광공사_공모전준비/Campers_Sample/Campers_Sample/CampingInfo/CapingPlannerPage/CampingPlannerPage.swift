@@ -10,6 +10,7 @@ import UIKit
 extension CampingPlannerPage {
     static func new(isForWrite: Bool) -> CampingPlannerPage {
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: CampingPlannerPage.identifier) as! CampingPlannerPage
+        vc.modalPresentationStyle = .fullScreen
         vc.isForWrite = isForWrite
         return vc
     }
@@ -17,8 +18,11 @@ extension CampingPlannerPage {
 
 class CampingPlannerPage: UIViewController {
     
-    static let identifier = "CampingPlanerPage"
+    static let identifier = "CampingPlannerPage"
         
+    @IBAction func clickClose(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
     var isForWrite: Bool = true
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var labelInfo: UILabel!
@@ -62,7 +66,11 @@ class CampingPlannerPage: UIViewController {
 }
 
 extension CampingPlannerPage: UICollectionViewDelegate {
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = CampingInfoDetailPage.new()
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+    }
 }
 
 extension CampingPlannerPage: UICollectionViewDataSource {

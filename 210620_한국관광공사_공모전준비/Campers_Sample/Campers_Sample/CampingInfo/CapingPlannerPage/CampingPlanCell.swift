@@ -22,7 +22,7 @@ class CampingPlanCell: UICollectionViewCell {
     func configure(item: Int) {
         self.viewBackground.layer.cornerRadius = 15
         if item % 4 == 0 {
-            self.labelPlan.text = "축령산 오션파크"
+            self.labelPlan.text = "가평 푸른숲 캠핑장"
         } else if item % 4 == 1 {
             self.labelPlan.text = "가평 레일바이크"
         } else if item % 4 == 2 {

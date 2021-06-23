@@ -45,7 +45,11 @@ class CampingInfoPage: UIViewController {
 }
 
 extension CampingInfoPage: UICollectionViewDelegate {
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = CampingInfoDetailPage.new()
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+    }
 }
 
 extension CampingInfoPage: UICollectionViewDataSource {

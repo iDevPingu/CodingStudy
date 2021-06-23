@@ -37,6 +37,6 @@ class SNSFeedCell: UICollectionViewCell {
         self.imageViewProfile.image = UIImage(named: "Pingu")
         self.labelNickname.text = "Campers"
         self.imageViewFeed.image = UIImage(named: "Camping")
-        self.labelContext.text = "#캠핑, #글램핑, #캠퍼스 #좋아\n캠핑 다녀왔어요! ㅎㅎ"
+        self.labelContext.text = "#캠핑, #글램핑, #캠퍼스 #좋아\n가평 푸른숲 캠핑장 다녀왔어요! ㅎㅎ"
     }
 }

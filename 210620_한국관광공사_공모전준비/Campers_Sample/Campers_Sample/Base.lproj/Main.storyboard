@@ -69,19 +69,19 @@
         <!--Camping Planner Page-->
         <scene sceneID="jeQ-Qf-jYt">
             <objects>
-                <viewController storyboardIdentifier="CampingPlanerPage" id="rqH-6F-il5" customClass="CampingPlannerPage" customModule="Campers_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CampingPlannerPage" id="rqH-6F-il5" customClass="CampingPlannerPage" customModule="Campers_Sample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GDn-GF-iwd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camping Planer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8S-Ix-dg5">
-                                <rect key="frame" x="10" y="64" width="185" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camping Planner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8S-Ix-dg5">
+                                <rect key="frame" x="10" y="103" width="200" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dnn-s3-1h6">
-                                <rect key="frame" x="20" y="114" width="374" height="200"/>
+                                <rect key="frame" x="20" y="153" width="374" height="200"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="f43-ff-3We"/>
@@ -119,8 +119,8 @@
                                     <action selector="clickShare:" destination="rqH-6F-il5" eventType="touchUpInside" id="EHE-eu-rwj"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가평에서 캠핑 하고 주변 관광까지 할 수 있는 코스~~입니다!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRL-Ay-mKF">
-                                <rect key="frame" x="20" y="334" width="374" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가평에서 캠핑 하고 주변 관광까지 할 수 있는 코스~~입니다! 함께 가실 분은 참여해주세요~~" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRL-Ay-mKF">
+                                <rect key="frame" x="20" y="393.5" width="374" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -150,29 +150,86 @@
                                     <color key="titleColor" red="0.16685024749999999" green="0.33254912409999998" blue="0.14587832000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21.06.25 ~ 21.06.26" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lc-j1-EK7">
+                                <rect key="frame" x="20" y="363" width="374" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="공유 가능 캠핑 장비" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flU-cl-gO1">
+                                <rect key="frame" x="20" y="454.5" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="burnner" translatesAutoresizingMaskIntoConstraints="NO" id="F6A-Hf-USc">
+                                <rect key="frame" x="20" y="485.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="9UU-pa-CmG"/>
+                                    <constraint firstAttribute="width" constant="80" id="tXS-5V-gWz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frypan" translatesAutoresizingMaskIntoConstraints="NO" id="NSd-Y6-eky">
+                                <rect key="frame" x="110" y="485.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Rnf-KU-7pW"/>
+                                    <constraint firstAttribute="height" constant="80" id="ZLe-u0-P8W"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grill" translatesAutoresizingMaskIntoConstraints="NO" id="BQw-2m-Yff">
+                                <rect key="frame" x="200" y="485.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="JPe-Uu-DxP"/>
+                                    <constraint firstAttribute="width" constant="80" id="cot-49-6CY"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8R-0e-OVR">
+                                <rect key="frame" x="10" y="64" width="30.5" height="29"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="xmark" catalog="system" renderingMode="original"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickClose:" destination="rqH-6F-il5" eventType="touchUpInside" id="yT1-VK-01H"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BfV-qK-fnE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="g8S-Ix-dg5" firstAttribute="leading" secondItem="BfV-qK-fnE" secondAttribute="leading" constant="10" id="0Lp-8e-Awc"/>
                             <constraint firstItem="BfV-qK-fnE" firstAttribute="trailing" secondItem="UQF-PN-BHE" secondAttribute="trailing" constant="20" id="4SK-Ob-XOt"/>
+                            <constraint firstItem="NSd-Y6-eky" firstAttribute="top" secondItem="flU-cl-gO1" secondAttribute="bottom" constant="10" id="69t-tK-t7Q"/>
+                            <constraint firstItem="BQw-2m-Yff" firstAttribute="top" secondItem="flU-cl-gO1" secondAttribute="bottom" constant="10" id="7lc-lO-wDe"/>
                             <constraint firstItem="BfV-qK-fnE" firstAttribute="trailing" secondItem="SrK-ck-hbM" secondAttribute="trailing" constant="10" id="8al-OB-mjw"/>
                             <constraint firstItem="Kbg-hv-PLE" firstAttribute="leading" secondItem="BfV-qK-fnE" secondAttribute="leading" constant="20" id="9Qb-hc-vJA"/>
-                            <constraint firstItem="g8S-Ix-dg5" firstAttribute="top" secondItem="BfV-qK-fnE" secondAttribute="top" constant="20" id="9SV-Ti-VaO"/>
+                            <constraint firstItem="NSd-Y6-eky" firstAttribute="leading" secondItem="F6A-Hf-USc" secondAttribute="trailing" constant="10" id="Co5-yl-bQM"/>
+                            <constraint firstItem="BfV-qK-fnE" firstAttribute="trailing" secondItem="0lc-j1-EK7" secondAttribute="trailing" constant="20" id="DIt-1k-X6h"/>
                             <constraint firstItem="Kbg-hv-PLE" firstAttribute="top" secondItem="31n-wU-L2k" secondAttribute="bottom" constant="20" id="H6F-G1-mwU"/>
+                            <constraint firstItem="flU-cl-gO1" firstAttribute="leading" secondItem="BfV-qK-fnE" secondAttribute="leading" constant="20" id="JQX-8b-rXs"/>
                             <constraint firstItem="31n-wU-L2k" firstAttribute="leading" secondItem="GDn-GF-iwd" secondAttribute="leading" constant="20" id="Pcv-wn-UKd"/>
-                            <constraint firstItem="oRL-Ay-mKF" firstAttribute="top" secondItem="dnn-s3-1h6" secondAttribute="bottom" constant="20" id="TQ0-sY-8b2"/>
+                            <constraint firstItem="g8S-Ix-dg5" firstAttribute="top" secondItem="I8R-0e-OVR" secondAttribute="bottom" constant="10" id="Q10-MV-dco"/>
+                            <constraint firstItem="F6A-Hf-USc" firstAttribute="leading" secondItem="BfV-qK-fnE" secondAttribute="leading" constant="20" id="Saj-BZ-1Ud"/>
                             <constraint firstItem="oRL-Ay-mKF" firstAttribute="leading" secondItem="BfV-qK-fnE" secondAttribute="leading" constant="20" id="amX-RZ-8ge"/>
                             <constraint firstItem="tGE-zW-LEn" firstAttribute="leading" secondItem="31n-wU-L2k" secondAttribute="trailing" constant="5" id="bwO-qm-qoq"/>
                             <constraint firstItem="dnn-s3-1h6" firstAttribute="top" secondItem="g8S-Ix-dg5" secondAttribute="bottom" constant="20" id="c2s-bA-YfM"/>
                             <constraint firstItem="BfV-qK-fnE" firstAttribute="trailing" secondItem="dnn-s3-1h6" secondAttribute="trailing" constant="20" id="eUz-eb-3Bn"/>
                             <constraint firstItem="BfV-qK-fnE" firstAttribute="bottom" secondItem="Kbg-hv-PLE" secondAttribute="bottom" constant="20" id="fUP-eM-lti"/>
+                            <constraint firstItem="BfV-qK-fnE" firstAttribute="trailing" secondItem="flU-cl-gO1" secondAttribute="trailing" constant="20" id="gIl-LW-FvN"/>
+                            <constraint firstItem="I8R-0e-OVR" firstAttribute="top" secondItem="BfV-qK-fnE" secondAttribute="top" constant="20" id="hPQ-Nw-nvT"/>
                             <constraint firstItem="tGE-zW-LEn" firstAttribute="centerY" secondItem="31n-wU-L2k" secondAttribute="centerY" id="j0Q-Ig-UBc"/>
+                            <constraint firstItem="BQw-2m-Yff" firstAttribute="leading" secondItem="NSd-Y6-eky" secondAttribute="trailing" constant="10" id="jM0-4q-Fa8"/>
+                            <constraint firstItem="F6A-Hf-USc" firstAttribute="top" secondItem="flU-cl-gO1" secondAttribute="bottom" constant="10" id="lpk-x7-vrn"/>
                             <constraint firstItem="BfV-qK-fnE" firstAttribute="trailing" secondItem="oRL-Ay-mKF" secondAttribute="trailing" constant="20" id="m1m-dg-lWY"/>
                             <constraint firstItem="UQF-PN-BHE" firstAttribute="centerY" secondItem="tGE-zW-LEn" secondAttribute="centerY" id="o5L-Af-ksA"/>
                             <constraint firstItem="dnn-s3-1h6" firstAttribute="leading" secondItem="BfV-qK-fnE" secondAttribute="leading" constant="20" id="oWW-j4-Jz4"/>
+                            <constraint firstItem="I8R-0e-OVR" firstAttribute="leading" secondItem="BfV-qK-fnE" secondAttribute="leading" constant="10" id="pNa-8M-KOy"/>
+                            <constraint firstItem="0lc-j1-EK7" firstAttribute="leading" secondItem="BfV-qK-fnE" secondAttribute="leading" constant="20" id="vpZ-Yn-n3Y"/>
                             <constraint firstItem="SrK-ck-hbM" firstAttribute="top" secondItem="BfV-qK-fnE" secondAttribute="top" constant="20" id="wAU-ub-5qZ"/>
+                            <constraint firstItem="flU-cl-gO1" firstAttribute="top" secondItem="oRL-Ay-mKF" secondAttribute="bottom" constant="20" id="wFm-0j-wRP"/>
+                            <constraint firstItem="oRL-Ay-mKF" firstAttribute="top" secondItem="0lc-j1-EK7" secondAttribute="bottom" constant="10" id="xEW-Xd-rmq"/>
                             <constraint firstItem="BfV-qK-fnE" firstAttribute="trailing" secondItem="Kbg-hv-PLE" secondAttribute="trailing" constant="20" id="xYA-Nw-QzB"/>
+                            <constraint firstItem="0lc-j1-EK7" firstAttribute="top" secondItem="dnn-s3-1h6" secondAttribute="bottom" constant="10" id="zna-nV-vOl"/>
                         </constraints>
                     </view>
                     <connections>
@@ -188,6 +245,112 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jfK-WW-Aaa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="19" y="1485"/>
+        </scene>
+        <!--Camping Info Detail Page-->
+        <scene sceneID="hsX-nV-cP3">
+            <objects>
+                <viewController storyboardIdentifier="CampingInfoDetailPage" id="jQp-I6-ajb" customClass="CampingInfoDetailPage" customModule="Campers_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="01A-ag-Yfj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Camping" translatesAutoresizingMaskIntoConstraints="NO" id="HFu-0o-MFS">
+                                <rect key="frame" x="0.0" y="103" width="414" height="270"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="270" id="kDO-3u-TxJ"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Orv-pM-zTy">
+                                <rect key="frame" x="20" y="64" width="30.5" height="29"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="xmark" catalog="system" renderingMode="original"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickClose:" destination="jQp-I6-ajb" eventType="touchUpInside" id="BHd-QJ-3me"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가평 푸른숲 캠핑장" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkC-gF-V8L">
+                                <rect key="frame" x="10" y="393" width="394" height="26.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbu-Om-ZNU">
+                                <rect key="frame" x="10" y="429.5" width="394" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qp-AD-jHD">
+                                <rect key="frame" x="10" y="460" width="394" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="031-584-0118" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yc-VJ-zHt">
+                                <rect key="frame" x="10" y="490.5" width="394" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="031-584-0118" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vc-Ch-0dk">
+                                <rect key="frame" x="10" y="518.5" width="394" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jns-H9-3I3">
+                                <rect key="frame" x="10" y="556.5" width="394" height="40"/>
+                                <color key="backgroundColor" red="0.7782606607" green="1" blue="0.7203205144" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="bHs-i2-OX9"/>
+                                </constraints>
+                                <state key="normal" title="예약하기">
+                                    <color key="titleColor" red="0.16685024749999999" green="0.33254912409999998" blue="0.14587832000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qby-Dw-4aO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kbu-Om-ZNU" firstAttribute="top" secondItem="nkC-gF-V8L" secondAttribute="bottom" constant="10" id="7T9-hV-EEl"/>
+                            <constraint firstItem="3vc-Ch-0dk" firstAttribute="top" secondItem="5yc-VJ-zHt" secondAttribute="bottom" constant="10" id="7fo-Td-WYH"/>
+                            <constraint firstItem="Orv-pM-zTy" firstAttribute="leading" secondItem="qby-Dw-4aO" secondAttribute="leading" constant="20" id="8Mi-kK-Cje"/>
+                            <constraint firstItem="qby-Dw-4aO" firstAttribute="trailing" secondItem="nkC-gF-V8L" secondAttribute="trailing" constant="10" id="BJA-4X-g8b"/>
+                            <constraint firstItem="qby-Dw-4aO" firstAttribute="trailing" secondItem="3vc-Ch-0dk" secondAttribute="trailing" constant="10" id="Bsf-Hy-mOh"/>
+                            <constraint firstItem="jns-H9-3I3" firstAttribute="top" secondItem="3vc-Ch-0dk" secondAttribute="bottom" constant="20" id="H4X-Zh-Wzp"/>
+                            <constraint firstItem="qby-Dw-4aO" firstAttribute="trailing" secondItem="5yc-VJ-zHt" secondAttribute="trailing" constant="10" id="HqE-l6-LKq"/>
+                            <constraint firstItem="qby-Dw-4aO" firstAttribute="trailing" secondItem="3qp-AD-jHD" secondAttribute="trailing" constant="10" id="O79-Gn-A8T"/>
+                            <constraint firstItem="5yc-VJ-zHt" firstAttribute="leading" secondItem="01A-ag-Yfj" secondAttribute="leading" constant="10" id="PZh-7r-GA1"/>
+                            <constraint firstItem="nkC-gF-V8L" firstAttribute="leading" secondItem="qby-Dw-4aO" secondAttribute="leading" constant="10" id="PtV-ed-pqY"/>
+                            <constraint firstItem="kbu-Om-ZNU" firstAttribute="leading" secondItem="qby-Dw-4aO" secondAttribute="leading" constant="10" id="QY8-3t-BJv"/>
+                            <constraint firstItem="qby-Dw-4aO" firstAttribute="trailing" secondItem="jns-H9-3I3" secondAttribute="trailing" constant="10" id="T1m-MM-7OB"/>
+                            <constraint firstItem="HFu-0o-MFS" firstAttribute="top" secondItem="Orv-pM-zTy" secondAttribute="bottom" constant="10" id="XsB-5C-eaQ"/>
+                            <constraint firstItem="jns-H9-3I3" firstAttribute="leading" secondItem="qby-Dw-4aO" secondAttribute="leading" constant="10" id="drp-Pz-GL8"/>
+                            <constraint firstItem="nkC-gF-V8L" firstAttribute="top" secondItem="HFu-0o-MFS" secondAttribute="bottom" constant="20" id="fiI-sb-IwP"/>
+                            <constraint firstItem="5yc-VJ-zHt" firstAttribute="top" secondItem="3qp-AD-jHD" secondAttribute="bottom" constant="10" id="l5d-1I-W40"/>
+                            <constraint firstItem="3qp-AD-jHD" firstAttribute="top" secondItem="kbu-Om-ZNU" secondAttribute="bottom" constant="10" id="oZ3-aC-a2y"/>
+                            <constraint firstItem="Orv-pM-zTy" firstAttribute="top" secondItem="qby-Dw-4aO" secondAttribute="top" constant="20" id="oeU-Mt-4Cn"/>
+                            <constraint firstItem="qby-Dw-4aO" firstAttribute="trailing" secondItem="kbu-Om-ZNU" secondAttribute="trailing" constant="10" id="pnl-ye-mx7"/>
+                            <constraint firstItem="3vc-Ch-0dk" firstAttribute="leading" secondItem="01A-ag-Yfj" secondAttribute="leading" constant="10" id="rA4-JA-dfB"/>
+                            <constraint firstItem="qby-Dw-4aO" firstAttribute="trailing" secondItem="HFu-0o-MFS" secondAttribute="trailing" id="uBu-nd-yIY"/>
+                            <constraint firstItem="HFu-0o-MFS" firstAttribute="leading" secondItem="qby-Dw-4aO" secondAttribute="leading" id="yCJ-h8-dpm"/>
+                            <constraint firstItem="3qp-AD-jHD" firstAttribute="leading" secondItem="01A-ag-Yfj" secondAttribute="leading" constant="10" id="yaQ-DY-6xw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonRegister" destination="jns-H9-3I3" id="qXC-S8-VHc"/>
+                        <outlet property="labelAddress" destination="3qp-AD-jHD" id="ICS-he-x4L"/>
+                        <outlet property="labelInfo" destination="kbu-Om-ZNU" id="yQe-FM-qG9"/>
+                        <outlet property="labelPhoneNumber" destination="5yc-VJ-zHt" id="JNa-R1-wLe"/>
+                        <outlet property="labelTitle" destination="nkC-gF-V8L" id="gGY-tp-DBG"/>
+                        <outlet property="labelURLAddress" destination="3vc-Ch-0dk" id="yhf-V8-DK1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qev-5f-Lcv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19" y="2155"/>
         </scene>
         <!--Camping Info-->
         <scene sceneID="w7z-Xc-qip">
@@ -246,7 +409,7 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuF-uU-xII">
                                                         <rect key="frame" x="5" y="5" width="121" height="40"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <state key="normal" title="Planer"/>
+                                                        <state key="normal" title="Planner"/>
                                                         <connections>
                                                             <action selector="clickPlaner:" destination="hgU-sg-FGT" eventType="touchUpInside" id="50E-mu-Sj3"/>
                                                         </connections>
@@ -315,6 +478,52 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bb6-34-3i6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="823.66071428571422"/>
+        </scene>
+        <!--Camping Item-->
+        <scene sceneID="gw2-eW-cez">
+            <objects>
+                <viewController id="Gfh-Mh-Cb9" customClass="UsedTradePage" customModule="Campers_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qkK-48-aJn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="캠핑 물품 중고 거래" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7U7-UI-Tnm">
+                                <rect key="frame" x="20" y="64" width="190" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="enM-GO-gTa">
+                                <rect key="frame" x="0.0" y="114" width="414" height="699"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="HOF-gB-m3J">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="avl-td-gEr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="avl-td-gEr" firstAttribute="bottom" secondItem="enM-GO-gTa" secondAttribute="bottom" id="2gD-kK-I30"/>
+                            <constraint firstItem="enM-GO-gTa" firstAttribute="leading" secondItem="avl-td-gEr" secondAttribute="leading" id="NrK-kk-5B2"/>
+                            <constraint firstItem="avl-td-gEr" firstAttribute="trailing" secondItem="enM-GO-gTa" secondAttribute="trailing" id="ViK-rj-NKl"/>
+                            <constraint firstItem="7U7-UI-Tnm" firstAttribute="leading" secondItem="avl-td-gEr" secondAttribute="leading" constant="20" id="W9x-3n-ymo"/>
+                            <constraint firstItem="enM-GO-gTa" firstAttribute="top" secondItem="7U7-UI-Tnm" secondAttribute="bottom" constant="20" id="aCv-WB-jaQ"/>
+                            <constraint firstItem="7U7-UI-Tnm" firstAttribute="top" secondItem="avl-td-gEr" secondAttribute="top" constant="20" id="pqH-C8-o4J"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Camping Item" image="bag.fill" catalog="system" id="Ehc-p6-Hvm"/>
+                    <connections>
+                        <outlet property="collectionView" destination="enM-GO-gTa" id="oGD-6Y-2Y5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qyF-nK-qAV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="851" y="810"/>
         </scene>
         <!--My-->
         <scene sceneID="IuP-1T-o95">
@@ -410,7 +619,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zav-Yy-t24" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="757.97101449275374" y="823.66071428571422"/>
+            <point key="canvasLocation" x="1742" y="824"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="0sE-Q6-gJf">
@@ -427,7 +636,8 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="IHe-9X-mBX"/>
                         <segue destination="hgU-sg-FGT" kind="relationship" relationship="viewControllers" id="oIW-KL-gUh"/>
-                        <segue destination="lv4-bI-gDg" kind="relationship" relationship="viewControllers" id="4fh-hY-D5c"/>
+                        <segue destination="Gfh-Mh-Cb9" kind="relationship" relationship="viewControllers" id="3KU-Ic-Egs"/>
+                        <segue destination="lv4-bI-gDg" kind="relationship" relationship="viewControllers" id="xK1-BF-XZG"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RfP-6q-Eax" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -436,12 +646,18 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Camping" width="720" height="480"/>
+        <image name="bag.fill" catalog="system" width="128" height="128"/>
+        <image name="burnner" width="225" height="225"/>
+        <image name="frypan" width="259" height="194"/>
+        <image name="grill" width="225" height="225"/>
         <image name="heart.fill" catalog="system" width="128" height="109"/>
         <image name="info.circle.fill" catalog="system" width="128" height="121"/>
         <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
         <image name="person.3.fill" catalog="system" width="128" height="61"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="plus.circle" catalog="system" width="128" height="121"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

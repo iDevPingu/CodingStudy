@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="UsedTradeCell" id="gTV-IL-0wX" customClass="UsedTradeCell" customModule="Campers_Sample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="140"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TWB-c8-DKG">
+                        <rect key="frame" x="0.0" y="0.0" width="385" height="140"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RT9-6s-NS5">
+                                <rect key="frame" x="10" y="5" width="130" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="FgJ-YP-mxj"/>
+                                    <constraint firstAttribute="width" constant="130" id="Xis-FY-Snl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="텐트 팔아요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNf-ub-KLE">
+                                <rect key="frame" x="150" y="5" width="225" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15000원" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oiP-1L-XDq">
+                                <rect key="frame" x="150" y="36" width="79" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dNf-ub-KLE" firstAttribute="leading" secondItem="RT9-6s-NS5" secondAttribute="trailing" constant="10" id="RCd-at-5BY"/>
+                            <constraint firstItem="RT9-6s-NS5" firstAttribute="top" secondItem="TWB-c8-DKG" secondAttribute="top" constant="5" id="UNA-tS-NgR"/>
+                            <constraint firstItem="oiP-1L-XDq" firstAttribute="leading" secondItem="RT9-6s-NS5" secondAttribute="trailing" constant="10" id="ZZT-bb-8Mh"/>
+                            <constraint firstItem="RT9-6s-NS5" firstAttribute="leading" secondItem="TWB-c8-DKG" secondAttribute="leading" constant="10" id="jMM-gd-mu6"/>
+                            <constraint firstItem="dNf-ub-KLE" firstAttribute="top" secondItem="TWB-c8-DKG" secondAttribute="top" constant="5" id="k3j-nL-LSi"/>
+                            <constraint firstItem="oiP-1L-XDq" firstAttribute="top" secondItem="dNf-ub-KLE" secondAttribute="bottom" constant="10" id="qbg-Sd-8bV"/>
+                            <constraint firstAttribute="trailing" secondItem="dNf-ub-KLE" secondAttribute="trailing" constant="10" id="sPK-hJ-hmO"/>
+                            <constraint firstAttribute="bottom" secondItem="RT9-6s-NS5" secondAttribute="bottom" constant="5" id="uja-NE-fvz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="TWB-c8-DKG" secondAttribute="trailing" id="8b6-Kg-ufo"/>
+                <constraint firstItem="TWB-c8-DKG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="OmL-Hr-J14"/>
+                <constraint firstAttribute="bottom" secondItem="TWB-c8-DKG" secondAttribute="bottom" id="rUe-LM-Sa7"/>
+                <constraint firstItem="TWB-c8-DKG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="uTl-Te-hsG"/>
+            </constraints>
+            <size key="customSize" width="385" height="143"/>
+            <connections>
+                <outlet property="imageViewItem" destination="RT9-6s-NS5" id="0HT-0d-Gjs"/>
+                <outlet property="labelPrice" destination="oiP-1L-XDq" id="vPZ-bi-E6x"/>
+                <outlet property="labelTitle" destination="dNf-ub-KLE" id="NbE-j1-zev"/>
+            </connections>
+            <point key="canvasLocation" x="380.43478260869568" y="140.625"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
