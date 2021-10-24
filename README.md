@@ -26,3 +26,6 @@
 ## [210919 - Clean Code 읽기 3](https://github.com/jaicoco/CodingStudy/tree/main/210919_CleanCode_3)
 ## [210926 - Clean Code 읽기 4](https://github.com/jaicoco/CodingStudy/tree/main/210926_CleanCode_4)
 ## [211003 - Clean Code 읽기 5](https://github.com/jaicoco/CodingStudy/tree/main/211003_CleanCode_5)
+## [211017 - Clean Code 읽기 6](https://github.com/jaicoco/CodingStudy/tree/main/211017_CleanCode_6)
+## [211024 - Clean Code 읽기 7](https://github.com/jaicoco/CodingStudy/tree/main/211024_CleanCode_7)
+## [211031 - Clean Code 읽기 8](https://github.com/jaicoco/CodingStudy/tree/main/211031_CleanCode_8)
