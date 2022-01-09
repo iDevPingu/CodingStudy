@@ -1,5 +1,5 @@
 # CodingStudy
-[김민기](https://github.com/wer153), [정형준](https://github.com/hyungjunjeong), [황재익](https://github.com/jaicoco) 코딩 스터디 Git
+[김민기](https://github.com/wer153), [정형준](https://github.com/hyungjunjeong), [황재익](https://github.com/iDevPingu) 코딩 스터디 Git
 
 ## [210418 - OOP 개념 공부 1](https://github.com/iDevPingu/CodingStudy/tree/main/210418_OOP_개념_1)
 ## [210425 - OOP 개념 공부 2](https://github.com/iDevPingu/CodingStudy/tree/main/210425_OOP_개념_2)
